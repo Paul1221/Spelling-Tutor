@@ -1,0 +1,45 @@
+body{
+    background-color: lightgray;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.topnav {
+    background-color: #303030;
+    font-family: 'Ubuntu', sans-serif;
+    overflow: hidden;
+    text-align: center;
+    position: sticky;
+}
+.topnav a {
+    font-family: 'Ubuntu', sans-serif;
+    float: left;
+    color: 	white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:1.3em;
+    display:flex;
+}
+
+.btn {
+    cursor: pointer;
+    border-radius: 5em;
+    color: black;
+    background: lightblue;
+    border: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 13px;
+    align-self: center;
+    font-weight: bold;
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}

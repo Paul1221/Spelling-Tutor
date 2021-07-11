@@ -1,0 +1,39 @@
+body{
+    background-color: lightgray;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.btn {
+    cursor: pointer;
+    border-radius: 5em;
+    color: black;
+    background: lightblue;
+    border: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 13px;
+    align-self: center;
+    font-weight: bold;
+}
+
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+
+.title {
+    padding-top: 40px;
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+}

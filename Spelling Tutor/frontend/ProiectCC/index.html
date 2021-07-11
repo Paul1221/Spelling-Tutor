@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script>
+        function check_for_logon(){
+            console.log(document.cookie);
+            if(document.cookie === "logged"){
+                document.getElementById("login").style.display = "none";
+                document.getElementById("register").style.display = "none";
+                
+            }
+        }
+    </script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/index.css">
+    <title>SpeechCorrector</title>
+</head>
+
+<body onload="check_for_logon()">
+    <div class='topnav'>
+        
+        <a class='login' id="login" href="/login">Login</a>
+        <a class='register' id="register" href="/register">Register</a>
+    </div>
+    <div class='home'>
+        <h1 align-self=center>
+            Welcome to Speech Corrector
+        </h1>
+        <h3>
+            This appication is designed to help people learn. If you have problems with pronunciation or grammar, this
+            is the place for you!
+        </h3>
+        <button class="btn" onclick="location.href='/pronunciation';">Help me with my pronunciation!</button>
+        <br>
+        <button class="btn" onclick="location.href='/grammar';">Help me with my grammar!</button>
+    </div>
+</body>
+
+</html>
